@@ -1,0 +1,6 @@
+.row{
+    padding: 0;
+}
+.navbar{
+    background: linear-gradient(90deg, rgb(86, 86, 86) 0%, rgb(40, 39, 39) 50%, rgb(49, 48, 48) 100%);
+}

@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Caudex", serif;;
+}
+body{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    min-width: 650px;
+        max-width: 100%;
+        font-family: "Poppins", sans-serif;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 213, 255) 100%);
+       /* padding-bottom: 10%;*/
+    
+}
+.btn-custom{
+    background-color: #4c4c98 !important;
+    color: white !important;
+}
+/* navbar */
+
+    .logo-img{
+        width: 100px;
+    }
+    .navbar{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,0.8799894957983193) 0%, rgba(9,9,121,0.7091211484593838) 35%, rgba(0,212,255,0.5242471988795518) 100%);
+    }
+    .nav-link{
+        color:white !important;
+    }
+    .btn-search{
+        background-color: #4c4c98 !important;
+        color:white !important;
+    }
+
+    .nav-item:hover{
+        border-bottom: 3px solid #6dabfc;
+    }   
+
+    .dropdown-menu{
+        /* background: transparent !important; */
+        background: rgb(2,0,36) !important;
+        background: linear-gradient(90deg, rgba(2,0,36,0.8799894957983193) 0%, rgba(9,9,121,0.7091211484593838) 35%, rgba(0,212,255,0.5242471988795518) 100%) !important;
+    }
+    .dropdown-item{
+        color:white !important;
+    }
+    .dropdown-item:focus, .dropdown-item:hover {
+        color: #fff !important;
+        text-decoration: none;
+        background-color: transparent !important;
+        border-bottom: 3px solid #6dabfc !important;
+    }
+/* navbar end  */
+
+
+
+
+
+/*footer start*/
+
+.frotter{
+    display: flex;
+    /*background-color:rgba(14, 12, 12, 0.37);*/
+    
+    
+}
+.froimg{
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.frotext{
+    margin-top: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px aliceblue;
+    color: brown;
+}
+
+
+.frop{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+}
+
+.fnav{
+    margin-left: 530px;
+    margin-top: 10px;
+}
+.last{
+    background-color: black;
+    text-shadow: 1px 1px 1px aliceblue;
+    color: brown;
+    text-align: right;
+    align-content: end;
+}
+.footer{
+    padding:20px 0px;
+    background-color: #212529;;
+    
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    width: 100%;
+    
+}
+.footer-img{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.foter-text{
+    text-align: justify;
+}
+.img-froter2{
+    width: 150px;
+}
+.footer-nav{
+    align-content: center;
+    padding-left: 10px;
+    margin-top: 20px;
+    
+}
+
+.nav-opt{
+    list-style: none;
+    
+}
+.nav-li .nav-a{
+    color: #fff;
+    cursor: pointer;
+}
+
+.about{
+    align-content: center;
+    padding-left: 30px;
+    margin-bottom: 20px; 
+}
+
+.about-link{
+    list-style: none;
+}
+
+ .about-nav .about-a{
+    color: #fff;
+}
+
+.signup-main{
+    align-content: center;
+    padding-left: 40px;
+    margin-top: 25px;
+    
+
+}
+.ptext{
+    margin-top: 25px;
+}
+.signup-text{
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
+.signup-btn{
+    padding: 3px 8px;
+    font-size: 15px ;
+    border: none;
+    border-radius: 3px;
+    
+}
+.signup-btn:hover{
+    border: 1px solid white;
+    background-color: #4c4c98 !important;
+    color: white !important;
+}
+
+.footer-last{
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.fa-brands{
+    padding: 3px;
+}
+.fa-youtube{
+    font-size: 30px;
+}
+.fa-square-instagram{
+    font-size: 30px;
+}
+.fa-square-whatsapp{
+    font-size: 30px;
+}
+.fa-facebook{
+    font-size: 30px;
+}
+.fa-square-twitter{
+    font-size: 30px;
+    
+}
+.fa-facebook-messenger{
+    font-size: 30px;
+}
+.card-body{
+    background-color: #0d0e66de;
+    color: #fff;
+}
+.card {
+   background-color: #0d0e66de !important;
+   color: #fff;
+}
+
+/*end footer*/
+
+.text-memb{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+    width: 100%;
+    height: 600px;
+    background-image: url(slide-img1.jpg);
+    color: white;
+    align-content: center !important;
+
+}
+.text-inp{
+   
+    font-weight: 200;
+    height: 50px;
+    border-radius: 20px;
+    padding: 3px;
+}
+.card-deck{
+margin: 0%;
+padding: 0%;
+max-width: 100%;
+}
+.hhh{
+    text-align: center;
+    color: #fff;
+}
+.Membership-main{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.card-img-top{
+    height: 300px;
+}

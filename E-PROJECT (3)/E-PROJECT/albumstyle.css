@@ -1,0 +1,260 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Caudex", serif;;
+}
+body{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 213, 255) 100%);
+   /* padding-bottom: 10%;*/
+}
+.btn-custom{
+    background-color: #4c4c98 !important;
+    color: white !important;
+}
+/* navbar */
+
+    .logo-img{
+        width: 100px;
+    }
+    .navbar{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,0.8799894957983193) 0%, rgba(9,9,121,0.7091211484593838) 35%, rgba(0,212,255,0.5242471988795518) 100%);
+    }
+    .nav-link{
+        color:white !important;
+    }
+    .btn-search{
+        background-color: #4c4c98 !important;
+        color:white !important;
+    }
+
+    .nav-item:hover{
+        border-bottom: 3px solid #6dabfc;
+    }   
+
+    .dropdown-menu{
+        /* background: transparent !important; */
+        background: rgb(2,0,36) !important;
+        background: linear-gradient(90deg, rgba(2,0,36,0.8799894957983193) 0%, rgba(9,9,121,0.7091211484593838) 35%, rgba(0,212,255,0.5242471988795518) 100%) !important;
+    }
+    .dropdown-item{
+        color:white !important;
+    }
+    .dropdown-item:focus, .dropdown-item:hover {
+        color: #fff !important;
+        text-decoration: none;
+        background-color: transparent !important;
+        border-bottom: 3px solid #6dabfc !important;
+    }
+/* navbar end  */
+
+/*poster start*/
+
+.poster{
+    display: flex;
+    width: 100%;
+}
+
+.poster-img{
+    width: 100%;
+    
+}
+
+.poter-cddvdv{
+   align-content: center;
+   color: white !important;
+}
+
+.img-section1{
+    margin-top: 5%;
+}
+
+.img-section2{
+    margin-top: 5%;
+}
+.img-section3{
+    margin-top: 5%;
+}
+.card{
+    background-color: transparent !important;
+}
+
+.card-body{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.18);
+    color: white !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+}
+
+.white{
+    color: white !important;
+}
+
+.card-footer{
+    background: rgba(255, 255, 255, 0.413) !important;
+    color: white !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important; 
+    backdrop-filter: blur(5.8px) !important;
+    -webkit-backdrop-filter: blur(5.8px) ;
+}
+
+.img-section4{
+    margin-top: 5%;
+}
+.footer{
+    margin-top: 5%;
+}
+
+.frotter{
+    display: flex;
+    /*background-color:rgba(14, 12, 12, 0.37);*/
+    
+}
+.froimg{
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.frotext{
+    margin-top: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px aliceblue;
+    color: brown;
+}
+
+
+.frop{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+}
+
+.fnav{
+    margin-left: 530px;
+    margin-top: 10px;
+}
+.last{
+    background-color: black;
+    text-shadow: 1px 1px 1px aliceblue;
+    color: brown;
+    text-align: right;
+    align-content: end;
+}
+.footer{
+    padding:20px 0px;
+    background-color: #212529;;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    width: 100%;
+}
+.footer-img{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.foter-text{
+    text-align: justify;
+}
+.img-froter2{
+    width: 150px;
+}
+.footer-nav{
+    align-content: center;
+    padding-left: 10px;
+    margin-top: 20px;
+    
+}
+
+.nav-opt{
+    list-style: none;
+    
+}
+.nav-li .nav-a{
+    color: #fff;
+    cursor: pointer;
+}
+
+.about{
+    align-content: center;
+    padding-left: 30px;
+    margin-bottom: 20px; 
+}
+
+.about-link{
+    list-style: none;
+}
+
+ .about-nav .about-a{
+    color: #fff;
+}
+
+.signup-main{
+    align-content: center;
+    padding-left: 40px;
+    margin-top: 25px;
+    
+
+}
+.ptext{
+    margin-top: 25px;
+}
+.signup-text{
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
+.signup-btn{
+    padding: 3px 8px;
+    font-size: 15px ;
+    border: none;
+    border-radius: 3px;
+    
+}
+.signup-btn:hover{
+    border: 1px solid white;
+    background-color: #4c4c98 !important;
+    color: white !important;
+}
+
+.footer-last{
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.fa-brands{
+    padding: 3px;
+}
+.fa-youtube{
+    font-size: 30px;
+}
+.fa-square-instagram{
+    font-size: 30px;
+}
+.fa-square-whatsapp{
+    font-size: 30px;
+}
+.fa-facebook{
+    font-size: 30px;
+}
+.fa-square-twitter{
+    font-size: 30px;
+    
+}
+.fa-facebook-messenger{
+    font-size: 30px;
+}
+
+

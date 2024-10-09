@@ -1,0 +1,347 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Caudex", serif;;
+}
+body{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    min-width: 650px;
+}
+.btn-custom{
+    background-color: #4c4c98 !important;
+    color: white !important;
+}
+/* navbar */
+
+    .logo-img{
+        width: 100px;
+    }
+    .navbar{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,0.8799894957983193) 0%, rgba(9,9,121,0.7091211484593838) 35%, rgba(0,212,255,0.5242471988795518) 100%);
+    }
+    .nav-link{
+        color:white !important;
+    }
+    .btn-search{
+        background-color: #4c4c98 !important;
+        color:white !important;
+    }
+
+    .nav-item:hover{
+        border-bottom: 3px solid #6dabfc;
+    }   
+
+    .dropdown-menu{
+        /* background: transparent !important; */
+        background: rgb(2,0,36) !important;
+        background: linear-gradient(90deg, rgba(2,0,36,0.8799894957983193) 0%, rgba(9,9,121,0.7091211484593838) 35%, rgba(0,212,255,0.5242471988795518) 100%) !important;
+    }
+    .dropdown-item{
+        color:white !important;
+    }
+    .dropdown-item:focus, .dropdown-item:hover {
+        color: #fff !important;
+        text-decoration: none;
+        background-color: transparent !important;
+        border-bottom: 3px solid #6dabfc !important;
+    }
+/* navbar end  */
+
+
+
+    
+
+
+
+/*slider start*/
+
+.slider {
+                    /* margin-top: 3%;   */
+                   height: 800px;
+                   width: 100%;
+                   
+                   background-image:url("slide-img2.jpg");
+                   background-position:  center;
+                   background-repeat: no-repeat;
+                   background-size: 100% 100%;
+                   animation-name: anani;
+                   animation-duration: 15s;
+                   animation-timing-function:linear;
+                   animation-iteration-count: infinite;
+                   
+                   
+                   
+   }
+
+       @keyframes anani{
+
+                   0%{background-image:url("slide-img2.jpg");}
+                   35%{background-image:url("istockphoto-1371047758-612x612.webp");}
+                   75%{background-image:url("pexels-pixabay-164693.jpg");}
+                   100%{background-image:url("singed\ books.webp");}
+
+       }
+
+       /* slider end */
+
+       /* cd&dvd start */
+       .card-group{
+        margin-top: 20px;
+       }
+
+       .cd-dvd{
+            padding-top: 50px;
+            background-image: url(./background/bg5.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-bottom: 50px;
+       }
+       .header_1 h1{
+            text-align: center;
+            color: white;
+            font-weight: 700 !important;
+        /* margin-top: 50PX; */
+
+       }
+
+       .card-body{
+        background-color: #0d0e66de;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+       }
+
+       .card{
+        border: none !important;
+         color: #fff; 
+        /* box-shadow: 3px 10px 14px #fff; */
+        border-radius: 10px !important;
+        margin: 0 3%;        
+       }
+
+    .card-text{
+        text-align: justify;
+    }
+
+    /* cd&dvd end */
+    
+    /*movies*/
+    .movie-section{
+        padding: 50px 0;
+        background-image: url(./background/pb4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .movie{
+        color: white;
+        text-align: center;
+        /* margin-top: 50px; */
+    }
+
+    .card-deck{
+        display: flex;
+        margin: 0 !important;
+    }
+    /*movies end*/
+
+    /*seal*/
+    .seal_option{
+        display: flex;
+        padding: 50px 0;
+        background-image: url(./background/bg2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .seal_img{
+        width: 50%;
+        border-radius: 30px;
+        box-shadow: 10px -10px 5px rgb(183, 80, 80);
+        height: 600px;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+
+    .seal_textman{
+        align-content: center;
+        padding: 50px;
+        color:white;
+    }
+
+    .seal_text{
+        font-size: 30px;
+    }
+
+    
+
+    .book-magezine{
+        padding: 50px 0;
+        background-image: url(./background/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main_card{
+        /* margin-top: 50px !important; */
+      
+    }
+
+    .book{
+        border-radius: 30px;
+    }
+
+
+    .frotter{
+        display: flex;
+        /*background-color:rgba(14, 12, 12, 0.37);*/
+    }
+    .froimg{
+        width: 50px;
+        border-radius: 100%;
+        margin-left: 550px;
+        margin-top: 50px;
+    }
+    
+    .frotext{
+        margin-top: 55px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 2px 2px 1px aliceblue;
+        color: brown;
+    }
+    
+    
+    .frop{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       text-align: center;
+    }
+    
+    .fnav{
+        margin-left: 530px;
+        margin-top: 10px;
+    }
+    .last{
+        background-color: black;
+        text-shadow: 1px 1px 1px aliceblue;
+        color: brown;
+        text-align: right;
+        align-content: end;
+    }
+    .footer{
+        padding:20px 0px;
+        background-color: #212529;;
+    }
+    .main-footer{
+        display: flex;
+        justify-content: space-around;
+        color: #fff;
+        width: 100%;
+    }
+    .footer-img{
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .foter-text{
+        text-align: justify;
+    }
+    .img-froter2{
+        width: 150px;
+    }
+    .footer-nav{
+        align-content: center;
+        padding-left: 10px;
+        margin-top: 20px;
+        
+    }
+
+    .nav-opt{
+        list-style: none;
+        
+    }
+    .nav-li .nav-a{
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .about{
+        align-content: center;
+        padding-left: 30px;
+        margin-bottom: 20px; 
+    }
+
+    .about-link{
+        list-style: none;
+    }
+   
+     .about-nav .about-a{
+        color: #fff;
+    }
+
+    .signup-main{
+        align-content: center;
+        padding-left: 40px;
+        margin-top: 25px;
+        
+
+    }
+    .ptext{
+        margin-top: 25px;
+    }
+    .signup-text{
+        border: none;
+        border-radius: 5px;
+        padding: 3px 5px;
+    }
+    
+    .signup-btn{
+        padding: 3px 8px;
+        font-size: 15px ;
+        border: none;
+        border-radius: 3px;
+        
+    }
+    .signup-btn:hover{
+        border: 1px solid white;
+        background-color: #4c4c98 !important;
+        color: white !important;
+    }
+
+    .footer-last{
+        padding-top: 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+
+    .fa-brands{
+        padding: 3px;
+    }
+    .fa-youtube{
+        font-size: 30px;
+    }
+    .fa-square-instagram{
+        font-size: 30px;
+    }
+    .fa-square-whatsapp{
+        font-size: 30px;
+    }
+    .fa-facebook{
+        font-size: 30px;
+    }
+    .fa-square-twitter{
+        font-size: 30px;
+        
+    }
+    .fa-facebook-messenger{
+        font-size: 30px;
+    }
+   
+    
